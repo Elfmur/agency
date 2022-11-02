@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../новая папка/open-sans-v34-latin-regular.woff2') format('woff2'),
+    url('../новая папка/open-sans-v34-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../новая папка/open-sans-v34-latin-600.woff2') format('woff2'),
+    url('../новая папка/open-sans-v34-latin-600.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../новая папка/open-sans-v34-latin-700.woff2') format('woff2'),
+    url('../новая папка/open-sans-v34-latin-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+    url('../новая папка/open-sans-v34-latin-italic.woff2') format('woff2'),
+    url('../новая папка/open-sans-v34-latin-italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 800;
+    src: local(''),
+    url('../новая папка/open-sans-v34-latin-800italic.woff2') format('woff2'),
+    url('../новая папка/open-sans-v34-latin-800italic.woff') format('woff');
+}
+
+.page {
+    max-width: 1240px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto;
+}
+/* Header */
+
+.header-wrapper {
+    background-color: #F6F2F2;
+    padding-top: 29px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 1249px;
+    min-height: 89px;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* margin: 0 auto;
+    min-height: 89px;
+    align-items: center; */
+}
+
+.menu-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.menu-list > li {
+    display: flex;
+    min-height: 89px;
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #E0E0E0;
+    b
+}
+
+.active-link {
+    background-color: hsl(360, 100%, 62%);
+}
+
+.menu-link:hover {
+    background-color: hsl(360, 100%, 62%);
+}
+
+/* two section*/
+.intro-wrapper {
+  display: block;
+  width: 100%;
+  background-color: color: #F6F2F2;
+
+}
+.intro {
+  display: flex;
+  width: 1249px;
+  margin: 0 auto;
+}
+
+.intro-heading {
+  font-family: 'Open Sans';
+  width: 618px;
+  height: 117px;
+  font-size: 60px;
+  line-height: 72px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.intro-special {
+  letter-spacing: 6px;
+}
+
+.intro-video {
+  width: 551px;
+  height: 356px;
+}
