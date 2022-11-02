@@ -110,6 +110,7 @@
   display: block;
   width: 100%;
   background-color: color: #F6F2F2;
+  padding: 102px 0 110px;
 
 }
 .intro {
@@ -137,4 +138,5 @@
 .intro-video {
   width: 551px;
   height: 356px;
+
 }
