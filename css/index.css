@@ -44,7 +44,7 @@
 }
 
 .page {
-    max-width: 1240px;
+    /* max-width: 1240px; */
     font-family: 'Open Sans';
     font-weight: normal;
     font-weight: 400;
@@ -64,9 +64,10 @@
     width: 1249px;
     min-height: 89px;
     background-color: rgba(0, 0, 0, 0.8);
-    /* margin: 0 auto;
-    min-height: 89px;
-    align-items: center; */
+    margin: 0 auto;
+}
+.site-menu {
+  margin-left: -30px;
 }
 
 .menu-list {
@@ -75,7 +76,6 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .menu-list > li {
@@ -94,7 +94,6 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #E0E0E0;
-    b
 }
 
 .active-link {
@@ -108,8 +107,8 @@
 /* two section*/
 .intro-wrapper {
   display: block;
-  width: 100%;
-  background-color: color: #F6F2F2;
+  /* width: 100%; */
+  background-color: #F6F2F2;
   padding: 102px 0 110px;
 
 }
@@ -117,20 +116,23 @@
   display: flex;
   width: 1249px;
   margin: 0 auto;
+  justify-content: space-between;
+}
+
+.intro-info {
+  max-width: 595px;
 }
 
 .intro-heading {
   font-family: 'Open Sans';
-  width: 618px;
-  height: 117px;
   font-size: 60px;
   line-height: 72px;
-  color: #000000;
-  text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 1.5px;
+  text-transform: uppercase;
   margin: 0;
-  margin-bottom: 37px;
+  margin-bottom: 19px;
+  margin-top: -15px;
 }
 
 .intro-special {
@@ -139,10 +141,11 @@
 
 .intro-text {
   font-family: 'Open Sans';
+  font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  font-weight: 400;
-  margin-bottom: 63px;
+  margin: 0;
+  margin-bottom: 58px;
 }
 
 .intro-action {
@@ -150,21 +153,23 @@
   justify-content: center;
   align-items: center;
   width: 227px;
+  padding: 0.5em 1em;
+  box-sizing: border-box;
   min-height: 55px;
   color: #fff;
   font-family: 'Open Sans';
   font-size: 18px;
   font-weight: 700px;
-  border-radius: 5px;
   line-height: 34px;
+  border-radius: 5px;
   background-color: #FF2D2D;
   text-decoration: none;
-  padding: 0.5em 1em;
-  box-sizing: border-box;
 }
 
 .intro-video {
   width: 551px;
   height: 356px;
+  object-fit: cover;
+  box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
 
 }
