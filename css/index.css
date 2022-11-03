@@ -179,10 +179,106 @@
     color: #fff;
 }
 
+.action-link_red-transp {
+    color: #FF2D2D;
+    background-color:
+    rgba(0, 0, 0, 0.0001);
+    border: 2px solid #FF2D2D;
+  }
+
 .intro__video {
   width: 551px;
   height: 356px;
   object-fit: cover;
   box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
+}
 
+/* services*/
+.services {
+  display: flex;
+  width: 1249px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 107px 0 90px;
+}
+
+.services__info {
+  width: 530px;
+}
+
+.services__heading {
+  font-family: 'Open Sans';
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0.422159px;
+  text-transform: uppercase;
+}
+
+.services__text {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.services__about {
+  margin: 0;
+  margin-bottom: 64px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.services__items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 610px;
+}
+
+.services_item {
+  width: 50%;
+  padding-right: 5px;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+.services_item_icon_mang::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/shesterny.svg');
+  background-repeat: no-repeat;
+}
+.services__item_icon_anim::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/car.svg');
+  background-repeat: no-repeat;
+}
+.services__item_icon_design::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url( '../images/pen.svg');
+  background-repeat: no-repeat;
+}
+.services__item_icon_logo::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/brilliance.svg');
+  background-repeat: no-repeat;
+}
+
+.services_title {
+  margin-bottom: 13px;
+  font-family: 'Open Sans';
+  font-size: 24.0692px;
 }
