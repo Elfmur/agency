@@ -51,12 +51,28 @@
     font-size: 16px;
     margin: auto;
 }
-/* Header */
 
-.header-wrapper {
-    background-color: #F6F2F2;
-    padding-top: 29px;
+.page__inner {
+      padding-top: 29px;
 }
+
+.page_inner_intro {
+  padding-top: 29px;
+}
+
+.page__inner_grey {
+  background-color: #F6F2F2;
+}
+
+.page__inner_section {
+  padding: 102px 0 110px;
+}
+
+.page_header {
+    margin: 0 auto;
+}
+
+/* Header */
 
 .header {
     display: flex;
@@ -64,13 +80,13 @@
     width: 1249px;
     min-height: 89px;
     background-color: rgba(0, 0, 0, 0.8);
-    margin: 0 auto;
+
 }
 .site-menu {
   margin-left: -30px;
 }
 
-.menu-list {
+.site-menu__list {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -78,12 +94,12 @@
     flex-wrap: wrap;
 }
 
-.menu-list > li {
+.site-menu__item {
     display: flex;
     min-height: 89px;
 }
 
-.menu-link {
+.site-menu_link {
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -96,22 +112,16 @@
     color: #E0E0E0;
 }
 
-.active-link {
+.site-menu__active_link {
     background-color: hsl(360, 100%, 62%);
 }
 
-.menu-link:hover {
+.site-menu_link:hover {
     background-color: hsl(360, 100%, 62%);
 }
 
 /* two section*/
-.intro-wrapper {
-  display: block;
-  /* width: 100%; */
-  background-color: #F6F2F2;
-  padding: 102px 0 110px;
 
-}
 .intro {
   display: flex;
   width: 1249px;
@@ -119,11 +129,11 @@
   justify-content: space-between;
 }
 
-.intro-info {
+.intro__info {
   max-width: 595px;
 }
 
-.intro-heading {
+.intro__heading {
   font-family: 'Open Sans';
   font-size: 60px;
   line-height: 72px;
@@ -135,11 +145,11 @@
   margin-top: -15px;
 }
 
-.intro-special {
+.intro__span_special{
   letter-spacing: 6px;
 }
 
-.intro-text {
+.intro__text {
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
@@ -148,7 +158,7 @@
   margin-bottom: 58px;
 }
 
-.intro-action {
+.action-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,17 +166,20 @@
   padding: 0.5em 1em;
   box-sizing: border-box;
   min-height: 55px;
-  color: #fff;
   font-family: 'Open Sans';
   font-size: 18px;
   font-weight: 700;
   line-height: 34px;
   border-radius: 5px;
-  background-color: #FF2D2D;
   text-decoration: none;
 }
 
-.intro-video {
+.action-link_red-full {
+    background-color: #FF2D2D;
+    color: #fff;
+}
+
+.intro__video {
   width: 551px;
   height: 356px;
   object-fit: cover;
