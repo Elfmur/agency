@@ -427,14 +427,14 @@ text-align: center;
 .team__members {
   display: flex;
   display: grid;
-  grid-template-columns: repeat (2, auto);
-  grid-template-rows: (2, auto);
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
 }
 
 .team__lead-photo {
   object-position: bottom;
   background-color: #FF3F40;
-  object-position: contain;
+  object-position: center;
   grid-column: 1 / 2;
   grid-row: 1 / 3;
   margin-right: 73px;
@@ -533,6 +533,5 @@ text-align: center;
 padding: 10px 0;
 }
 
-.team__other:hover > .team__other-name {
-  display: block;
-}
+.team__other:hover >.team__other-name {
+  display: block; }
