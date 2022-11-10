@@ -340,6 +340,11 @@ text-align: center;
     margin-bottom: 72px;
 }
 
+.hor-line-center {
+  margin: auto;
+  margin-top: 30px;
+}
+
 .filter {
   display: flex;
   justify-content: center;
