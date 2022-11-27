@@ -1088,7 +1088,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 801px) {
   .header {
     background-color: rgba(49, 48, 48, 1);
   }
