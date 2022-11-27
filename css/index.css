@@ -1078,7 +1078,7 @@
   }
 }
 
-@media screen and (min-width: 800px)  {
+@media screen and (min-width: 801px)  {
   .intro {
     flex-wrap: nowrap;
   }
@@ -1088,7 +1088,7 @@
   }
 }
 
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 800px) {
   .header {
     background-color: rgba(49, 48, 48, 1);
   }
