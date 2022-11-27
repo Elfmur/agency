@@ -47,6 +47,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  --red-color: hsl(360, 100%, 62%);
+}
+
 .page {
   font-family: 'Open Sans';
   font-weight: normal;
@@ -127,11 +131,11 @@
 }
 
 .site-menu__active_link {
-  background-color: hsl(360, 100%, 62%);
+  background-color: var(--red-color);
 }
 
 .site-menu_link:hover {
-  background-color: hsl(360, 100%, 62%);
+  background-color: var(--red-color);
 }
 
 /* Popup*/
@@ -149,7 +153,7 @@
 }
 
 .popup-menu__button:active {
-  background-color: hsl(360, 100%, 62%);
+  background-color: var(--red-color);
 }
 
 .popup-menu {
@@ -198,7 +202,7 @@
 }
 
 .popup-menu__item:hover {
-  background-color: hsl(360, 100%, 62%);
+  background-color: var(--red-color);
 }
 
 .intro {
@@ -258,7 +262,7 @@
 }
 
 .action-link_red-full {
-  background-color: #FF2D2D;
+  background-color: var(--red-color);
   color: #fff;
 }
 
@@ -1227,7 +1231,7 @@
     font-size: 35px;
     text-align: center;
   }
-  
+
   .site-menu {
     margin-left: 0;
   }
