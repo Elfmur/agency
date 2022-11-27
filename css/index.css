@@ -394,7 +394,6 @@
   max-width: 1249px;
   margin: 0 auto;
   padding-top: 98px;
-  padding-left: 27px;
 }
 
 .feature__header {
@@ -589,6 +588,10 @@
   padding-top: 20px;
   box-sizing: border-box;
   padding-right: 10px;
+}
+
+.team__lead-link:hover {
+  color: #FF3F40;
 }
 
 .team__lead-link {
@@ -1171,17 +1174,30 @@
     padding-left: 20px;
   }
 
+  .services_item {
+    width: inherit;
+  }
+
   .services__heading {
     font-size: 32px;
+  }
+
+  .services__item_icon_design, .services__item_icon_anim {
+    padding-left: 0;
   }
 
   .team__heading {
     font-size: 35px;
   }
 
+  .team__about {
+    padding-left: 15px;
+  }
+
   .team__lead-social {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
 
   .subscribe__heading {
@@ -1191,10 +1207,6 @@
   .filter__list {
     flex-direction: column;
     align-items: center;
-  }
-
-  .feature__heading {
-    font-size: 35px;
   }
 
   .feedback__heading {
