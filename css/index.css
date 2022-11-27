@@ -149,7 +149,7 @@
 }
 
 .popup-menu__button:active {
-  background-color: #F28686;
+  background-color: hsl(360, 100%, 62%);
 }
 
 .popup-menu {
