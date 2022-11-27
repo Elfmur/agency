@@ -148,6 +148,10 @@
   border: none;
 }
 
+.popup-menu__button:active {
+  background-color: #F28686;
+}
+
 .popup-menu {
   margin-left: -41px;
   position: relative;
