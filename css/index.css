@@ -1154,9 +1154,18 @@
 }
 
 @media screen and (max-width: 600px) {
+  .intro__span_special {
+    letter-spacing: 0;
+  }
+
   .intro__heading {
-    font-size: 40px;
+    font-size: 50px;
     line-height: normal;
+  }
+
+  .action-link {
+    margin: auto;
+
   }
 
   .services__items {
@@ -1167,6 +1176,7 @@
     display: flex;
     flex-wrap: wrap;
     width: auto;
+    justify-content: center;
   }
 
   .services {
@@ -1200,6 +1210,10 @@
     gap: 10px;
   }
 
+  .subscribe {
+    padding: 75px 0 95px;
+  }
+
   .subscribe__heading {
     font-size: 35px;
   }
@@ -1211,17 +1225,15 @@
 
   .feedback__heading {
     font-size: 35px;
+    text-align: center;
   }
+  
   .site-menu {
     margin-left: 0;
   }
 
   .site-menu__list  {
     justify-content: center;
-  }
-
-  .feature {
-    padding-left: 20px;
   }
 
   .feature__about {
