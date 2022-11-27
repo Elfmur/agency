@@ -1212,11 +1212,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-
-  .team__header {
-    padding-left: 20px;
-  }
-
+  
   .popup-menu {
     margin-left: 0;
   }
